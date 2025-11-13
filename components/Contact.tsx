@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
         </a>
         <div className="flex justify-center space-x-6 mt-12">
           <a href="https://github.com/GeorgeDrift" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-white transition-colors"><GithubIcon className="w-8 h-8" /></a>
-          <a href="https://wa.me/260992661958" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-white transition-colors"><WhatsAppIcon className="w-8 h-8" /></a>
+          <a href="https://wa.me/265992661958" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-white transition-colors"><WhatsAppIcon className="w-8 h-8" /></a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=georgechivalo01@gmail.com" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-white transition-colors"><EmailIcon className="w-8 h-8" /></a>
         </div>
       </div>
