@@ -79,7 +79,7 @@ export const GALLERY_IMAGES_DATA: GalleryImage[] = [
     { id: '3', imageUrl: '/assets/gallery1.jpg', altText: '' },
     { id: '4', imageUrl: '/assets/gallery2.jpg', altText: '' },
     { id: '5', imageUrl: '/assets/gallery3.jpg', altText: '' },
-    { id: '6', imageUrl: '/assets/gallery4.Png', altText: '' },
+    { id: '6', imageUrl: '/assets/gallery4.png', altText: '' },
     { id: '7', imageUrl: '/assets/gallery5.jpg', altText: '' },
     { id: '8', imageUrl: '/assets/gallery6.jpg', altText: 'Code on screen' },
     { id: '9', imageUrl: '/assets/gallery7.jpg', altText: 'My workspace' },
