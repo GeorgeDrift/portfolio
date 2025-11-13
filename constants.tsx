@@ -7,7 +7,7 @@ import { Profile, Skill, Project, GalleryImage } from './types';
 export const PROFILE_DATA: Profile = {
   name: "George David Tembo",
   bio: `Certified Computer Engineer with a passion for building elegant and efficient solutions. I specialize in full-stack development, with a strong foundation in both front-end and back-end technologies. \n\nMy journey in tech is driven by a desire to solve complex problems and create meaningful applications that impact users positively. I am a lifelong learner, always eager to explore new technologies and improve my skill set.`,
-  imageUrl: "assets/profile.jpg"
+  imageUrl: "/assets/profile.jpg"
 };
 
 export const SKILLS_DATA: Skill[] = [
@@ -32,7 +32,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Smart Fish Pond System',
     description: 'An IoT-based system to automate and monitor a fish pond. Features include automatic feeding, pH level monitoring, and turbidity tracking, all accessible through a clean dashboard.',
     technologies: ['React', 'Node.js', 'IoT', 'Arduino'],
-    imageUrl: 'assets/fish_feeding.png',
+    imageUrl: '/assets/fish_feeding.png',
     liveUrl: '#',
     repoUrl: 'https://github.com/GeorgeDrift/Fish_feeding',
   },
@@ -41,22 +41,23 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Music Addict App',
     description: 'A sleek and modern music streaming application with features like playlist creation, song queues, and a dynamic user interface for a seamless listening experience.',
     technologies: ['React', 'TailwindCSS', 'Node.js', 'Express'],
-    imageUrl: 'assets/music_addict.png',
-   
+    imageUrl: '/assets/music_addict.png',
+    liveUrl: '#',
+    repoUrl: '#',
   }
 ];
 
 export const GALLERY_IMAGES_DATA: GalleryImage[] = [
-    { id: '1', imageUrl: 'assets/profile.jpg', altText: 'Professional headshot' },
-    { id: '2', imageUrl: 'assets/background.jpg', altText: 'Working on a project' },
-    { id: '3', imageUrl: 'assets/gallery1.jpg', altText: '' },
-    { id: '4', imageUrl: 'assets/gallery2.jpg', altText: '' },
-    { id: '5', imageUrl: 'assets/gallery3.jpg', altText: '' },
-    { id: '6', imageUrl: 'assets/gallery4.Png', altText: '' },
-    { id: '7', imageUrl: 'assets/gallery5.jpg', altText: '' },
-    { id: '8', imageUrl: 'assets/gallery6.jpg', altText: 'Code on screen' },
-    { id: '9', imageUrl: 'assets/gallery7.jpg', altText: 'My workspace' },
-    { id: '10', imageUrl: 'assets/gallery8.jpg', altText: 'Code on screen' },
-    { id: '11', imageUrl: 'assets/gallery11.jpg', altText: 'My workspace' },
-    { id: '12', imageUrl: 'assets/gallery12.jpg', altText: 'Code on screen' },
+    { id: '1', imageUrl: '/assets/profile.jpg', altText: 'Professional headshot' },
+    { id: '2', imageUrl: '/assets/background.jpg', altText: 'Working on a project' },
+    { id: '3', imageUrl: '/assets/gallery1.jpg', altText: '' },
+    { id: '4', imageUrl: '/assets/gallery2.jpg', altText: '' },
+    { id: '5', imageUrl: '/assets/gallery3.jpg', altText: '' },
+    { id: '6', imageUrl: '/assets/gallery4.png', altText: '' },
+    { id: '7', imageUrl: '/assets/gallery5.jpg', altText: '' },
+    { id: '8', imageUrl: '/assets/gallery6.jpg', altText: 'Code on screen' },
+    { id: '9', imageUrl: '/assets/gallery7.jpg', altText: 'My workspace' },
+    { id: '10', imageUrl: '/assets/gallery8.jpg', altText: 'Code on screen' },
+    { id: '11', imageUrl: '/assets/gallery11.jpg', altText: 'My workspace' },
+    { id: '12', imageUrl: '/assets/gallery12.jpg', altText: 'Code on screen' },
 ];
