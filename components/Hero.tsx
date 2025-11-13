@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
           <a href="#projects" className="bg-sky-500 text-white font-semibold py-3 px-8 rounded-md hover:bg-sky-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-sky-500/30">
             View My Work
           </a>
-          <a href="/Resume George David Tembo (1).docx" download className="bg-slate-700 text-white font-semibold py-3 px-8 rounded-md hover:bg-slate-600 transition-all duration-300 transform hover:scale-105">
+          <a href="/assets/George-David-Tembo-CV.docx" download className="bg-slate-700 text-white font-semibold py-3 px-8 rounded-md hover:bg-slate-600 transition-all duration-300 transform hover:scale-105">
             Download CV
           </a>
         </div>
