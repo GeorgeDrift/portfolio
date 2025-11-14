@@ -26,39 +26,13 @@ export const SKILLS_DATA: Skill[] = [
 ];
 
 export const PROJECTS_DATA: Project[] = [
-  {
-    id: '1',
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce website with user authentication, product catalog, shopping cart, and a secure checkout process. Built with the MERN stack.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    imageUrl: '/assets/project1.jpg',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
-  {
-    id: '2',
-    title: 'Data Visualization Dashboard',
-    description: 'An interactive dashboard for visualizing complex datasets using D3.js and React. Features real-time data updates and customizable charts.',
-    technologies: ['React', 'D3.js', 'Python', 'Flask', 'WebSockets'],
-    imageUrl: '/assets/project2.jpg',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
-  {
-    id: '3',
-    title: 'IoT Smart Home Controller',
-    description: 'A web application to control and monitor IoT devices in a smart home environment. Built with Raspberry Pi, Node.js, and a React Native mobile app.',
-    technologies: ['React Native', 'Node.js', 'MQTT', 'Raspberry Pi'],
-    imageUrl: '/assets/project3.jpg',
-    liveUrl: '#',
-    repoUrl: '#',
-  },
+
   {
     id: '4',
     title: 'Smart Fish Pond System',
     description: 'An IoT-based system to automate and monitor a fish pond. Features include automatic feeding, pH level monitoring, and turbidity tracking, all accessible through a clean dashboard.',
     technologies: ['React', 'Node.js', 'IoT', 'Arduino'],
-    imageUrl: '/assets/project_fish.jpg',
+    imageUrl: '/assets/fish_feeding.png',
     liveUrl: '#',
     repoUrl: 'https://github.com/GeorgeDrift/Fish_feeding',
   },
@@ -67,12 +41,12 @@ export const PROJECTS_DATA: Project[] = [
     title: 'Music Addict App',
     description: 'A sleek and modern music streaming application with features like playlist creation, song queues, and a dynamic user interface for a seamless listening experience.',
     technologies: ['React', 'TailwindCSS', 'Node.js', 'Express'],
-    imageUrl: '/assets/project_music.jpg',
+    imageUrl: '/assets/music_addict.png',
     liveUrl: '#',
     repoUrl: '#',
   }
 ];
-
+//working 
 export const GALLERY_IMAGES_DATA: GalleryImage[] = [
     { id: '1', imageUrl: '/assets/profile.jpg', altText: 'Professional headshot' },
     { id: '2', imageUrl: '/assets/background.jpg', altText: 'Working on a project' },
@@ -82,8 +56,8 @@ export const GALLERY_IMAGES_DATA: GalleryImage[] = [
     { id: '6', imageUrl: '/assets/gallery4.png', altText: '' },
     { id: '7', imageUrl: '/assets/gallery5.jpg', altText: '' },
     { id: '8', imageUrl: '/assets/gallery6.jpg', altText: 'Code on screen' },
-    { id: '9', imageUrl: '/assets/gallery7.jpg', altText: 'My workspace' },
-    { id: '10', imageUrl: '/assets/gallery8.jpg', altText: 'Code on screen' },
-    { id: '11', imageUrl: '/assets/gallery11.jpg', altText: 'My workspace' },
-    { id: '12', imageUrl: '/assets/gallery12.jpg', altText: 'Code on screen' },
+    { id: '9', imageUrl: '/assets/gallery7.jpg', altText: '' },
+    { id: '10', imageUrl: '/assets/gallery8.jpg', altText: '' },
+    { id: '11', imageUrl: '/assets/gallery11.jpg', altText: '' },
+    { id: '12', imageUrl: '/assets/gallery12.jpg', altText: '' },
 ];
