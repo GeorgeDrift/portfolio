@@ -45,6 +45,21 @@ export const PROJECTS_DATA: Project[] = [
     liveUrl: '#',
     repoUrl: '#',
   }
+,
+   {
+    id: '5',
+    title: 'Online shopping web',
+    description: 'A seemless online shopping experience with a user-friendly interface, product browsing, and secure checkout. Built with modern web technologies for optimal performance.',
+    technologies: ['React', 'TailwindCSS', 'Node.js', 'Express'],
+    imageUrl: '/assets/pluto.png',
+    liveUrl: 'https://plutoshoppingstore.vercel.app/',
+    repoUrl: 'https://plutoshoppingstore.vercel.app/',
+  }
+
+
+
+
+
 ];
 //working 
 export const GALLERY_IMAGES_DATA: GalleryImage[] = [
