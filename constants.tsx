@@ -26,9 +26,26 @@ export const SKILLS_DATA: Skill[] = [
 ];
 
 export const PROJECTS_DATA: Project[] = [
-
   {
-    id: '4',
+    id: '1',
+    title: 'MintHaus NFT Marketplace',
+    description: 'A premium Web3 decentralized application (dApp) designed for minting, buying, selling, and collecting NFTs on the Base blockchain. Built with interactive card components, secure wallet connections, and full user metadata storage.',
+    technologies: ['Next.js', 'React', 'TailwindCSS', 'Clerk Auth', 'Web3 / Wagmi / RainbowKit'],
+    imageUrl: '/assets/minthaus.png',
+    liveUrl: 'https://minthaus-henna.vercel.app/',
+    repoUrl: '#',
+  },
+  {
+    id: '2',
+    title: 'Driving School Academy',
+    description: 'A highly responsive educational and scheduling landing platform for driving schools. Features course packages, trainer bios, pricing models, and an integrated booking widget.',
+    technologies: ['Next.js', 'React', 'TailwindCSS', 'TypeScript'],
+    imageUrl: '/assets/driving_school.png',
+    liveUrl: 'https://driving-ochre.vercel.app/',
+    repoUrl: '#',
+  },
+  {
+    id: '3',
     title: 'Smart Fish Pond System',
     description: 'An IoT-based system to automate and monitor a fish pond. Features include automatic feeding, pH level monitoring, and turbidity tracking, all accessible through a clean dashboard.',
     technologies: ['React', 'Node.js', 'IoT', 'Arduino'],
@@ -37,29 +54,23 @@ export const PROJECTS_DATA: Project[] = [
     repoUrl: 'https://github.com/GeorgeDrift/Fish_feeding',
   },
   {
-    id: '5',
+    id: '4',
     title: 'Music Addict App',
     description: 'A sleek and modern music streaming application with features like playlist creation, song queues, and a dynamic user interface for a seamless listening experience.',
     technologies: ['React', 'TailwindCSS', 'Node.js', 'Express'],
     imageUrl: '/assets/music_addict.png',
     liveUrl: '#',
     repoUrl: '#',
-  }
-,
-   {
+  },
+  {
     id: '5',
-    title: 'Online shopping web',
-    description: 'A seemless online shopping experience with a user-friendly interface, product browsing, and secure checkout. Built with modern web technologies for optimal performance.',
+    title: 'Online Shopping Store',
+    description: 'A seamless online shopping experience with a user-friendly interface, product browsing, and secure checkout. Built with modern web technologies for optimal performance.',
     technologies: ['React', 'TailwindCSS', 'Node.js', 'Express'],
     imageUrl: '/assets/pluto.png',
     liveUrl: 'https://plutoshoppingstore.vercel.app/',
     repoUrl: 'https://plutoshoppingstore.vercel.app/',
   }
-
-
-
-
-
 ];
 //working 
 export const GALLERY_IMAGES_DATA: GalleryImage[] = [

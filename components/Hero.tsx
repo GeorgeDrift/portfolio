@@ -50,12 +50,15 @@ const Hero: React.FC = () => {
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 text-shadow-dark">
           Crafting robust and scalable solutions with a passion for clean code and innovative technology.
         </p>
-        <div className="flex justify-center gap-4">
-          <a href="#projects" className="bg-sky-500 text-white font-semibold py-3 px-8 rounded-md hover:bg-sky-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-sky-500/30">
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="#projects" className="bg-sky-500 text-white font-semibold py-3 px-8 rounded-md hover:bg-sky-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-sky-500/30 text-center">
             View My Work
           </a>
-          <a href="/assets/George-David-Tembo-CV.docx" download className="bg-slate-700 text-white font-semibold py-3 px-8 rounded-md hover:bg-slate-600 transition-all duration-300 transform hover:scale-105">
+          <a href="/assets/George_David_Tembo_Resume.pdf" download className="bg-slate-700 text-white font-semibold py-3 px-8 rounded-md hover:bg-slate-600 transition-all duration-300 transform hover:scale-105 text-center">
             Download CV
+          </a>
+          <a href="/resume-print.html" target="_blank" rel="noopener noreferrer" className="bg-slate-800 text-white font-semibold py-3 px-8 rounded-md hover:bg-slate-700 border border-slate-700 transition-all duration-300 transform hover:scale-105 text-center">
+            View Resume
           </a>
         </div>
       </div>
